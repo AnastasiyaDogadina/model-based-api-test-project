@@ -1,6 +1,6 @@
 from pydantic.main import ModelMetaclass as PydanticModel
 
-from serializers.orders import *
+from serializers.bookers import *
 
 
 def delete_fields(flag: str, data: dict, model: PydanticModel, paths: list | tuple) -> None:
